@@ -12,6 +12,7 @@ public class UI : MonoBehaviour
     private float remainingTimeDialRate;    // 1.0 / time per problem
 
     public Text endText;                    // text displayed a the end of the game (win or game over)
+    public int Score;
 
     // instance
     public static UI instance;
@@ -75,7 +76,7 @@ public class UI : MonoBehaviour
         // did the player lose?
         else
         {
-            endText.text = "Game Over!";
+            endText.text = "Game Over! ";
             endText.color = Color.red;
         }
     }

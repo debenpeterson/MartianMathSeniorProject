@@ -10,7 +10,7 @@ public class Problem
     public MathsOperation operation;    // operator between the two numbers
     public float[] answers;             // array of all possible answers including the correct one
 
-    [Range(0, 3)]
+    [Range(0, 100)]
     public int correctTube;             // index of the correct tube
 }
 
